@@ -1,0 +1,76 @@
+data_68
+_audit_creation_date              2023-09-08
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    8.2400
+_cell_length_b                    8.2400
+_cell_length_c                    3.2800
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.84186   0.33499   0.50000   0.00000  Uiso   1.00
+C2     C     0.66501   0.50687   0.50000   0.00000  Uiso   1.00
+C3     C     0.49313   0.15814   0.50000   0.00000  Uiso   1.00
+C4     C     0.15814   0.66501   0.50000   0.00000  Uiso   1.00
+C5     C     0.33499   0.49313   0.50000   0.00000  Uiso   1.00
+C6     C     0.50687   0.84186   0.50000   0.00000  Uiso   1.00
+C7     C     0.33499   0.84186   0.50000   0.00000  Uiso   1.00
+C8     C     0.50687   0.66501   0.50000   0.00000  Uiso   1.00
+C9     C     0.15814   0.49313   0.50000   0.00000  Uiso   1.00
+C10    C     0.66501   0.15814   0.50000   0.00000  Uiso   1.00
+C11    C     0.49313   0.33499   0.50000   0.00000  Uiso   1.00
+C12    C     0.84186   0.50687   0.50000   0.00000  Uiso   1.00
+N13    N     0.32844   0.32844   0.50000   0.00000  Uiso   1.00
+N14    N     0.67156   0.00000   0.50000   0.00000  Uiso   1.00
+N15    N     0.00000   0.67156   0.50000   0.00000  Uiso   1.00
+N16    N     0.67156   0.67156   0.50000   0.00000  Uiso   1.00
+N17    N     0.32844   0.00000   0.50000   0.00000  Uiso   1.00
+N18    N     0.00000   0.32844   0.50000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C12     1.416   .     D
+C1     C10     1.457   .     S
+C1     N18     1.331   1_655 S
+C2     N16     1.331   .     D
+C2     C12     1.457   .     S
+C2     C11     1.416   .     S
+C3     C10     1.416   .     D
+C3     C11     1.457   .     S
+C3     N17     1.331   .     S
+C4     N15     1.331   .     D
+C4     C7      1.457   .     S
+C4     C9      1.416   .     S
+C5     N13     1.331   .     S
+C5     C9      1.457   .     S
+C5     C8      1.416   .     D
+C6     C7      1.416   .     S
+C6     C8      1.457   .     S
+C6     N14     1.331   1_565 D
+C7     N17     1.331   1_565 D
+C8     N16     1.331   .     S
+C9     N18     1.331   .     D
+C10    N14     1.331   .     S
+C11    N13     1.331   .     D
+C12    N15     1.331   1_655 S
+N14    C6      1.331   1_545 D
+N15    C12     1.331   1_455 S
+N17    C7      1.331   1_545 D
+N18    C1      1.331   1_455 S
