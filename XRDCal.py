@@ -67,7 +67,7 @@ def plot_xrd_comparison(two_theta, xrd_spectrum, xrd_pattern, mode="subplots"):
 
 
 if __name__ == "__main__":
-    cif_path = "1.cif"
+    cif_path = "all_cifs/5.cif"  
     two_theta, xrd_spectrum, xrd_pattern = cif2xrd(cif_path)
     numpy.savetxt("1.txt", numpy.column_stack((two_theta, xrd_spectrum)))
     
