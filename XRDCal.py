@@ -10,7 +10,7 @@ def cif2xrd(cif_path):
 
     two_theta_grid = numpy.linspace(2, 30, 554)
     xrd_spectrum = numpy.zeros_like(two_theta_grid)
-    sigma = 0.15 / (2 * numpy.sqrt(2 * numpy.log(2)))
+    sigma = 0.3 / (2 * numpy.sqrt(2 * numpy.log(2)))
     for angle, intensity in zip(xrd_pattern.x, xrd_pattern.y):
         xrd_spectrum = intensity * numpy.exp(-((two_theta_grid - angle) ** 2) / (2 * sigma**2)) + xrd_spectrum
     return two_theta_grid, xrd_spectrum, xrd_pattern

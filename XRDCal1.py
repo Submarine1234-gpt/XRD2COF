@@ -18,6 +18,7 @@ class MyXRDCalculator:
         self.sigma = fwhm / (2 * numpy.sqrt(2 * numpy.log(2)))
         self.gamma = fwhm / 2
         self.eta = 0.4
+        #使用高斯和洛伦兹混合函数模拟展宽峰形，eta为高斯和洛伦兹的混合系数
 
     def calculate_xrd(self):
         origin_structure = Structure.from_file(self.cifpath)
@@ -45,9 +46,12 @@ class MyXRDCalculator:
         max_peak = numpy.max(xrd_spectrum) if numpy.max(xrd_spectrum) > 0 else 1
 
         background_center = numpy.random.uniform(self.background[0],self.background[1])
-        background_width = numpy.random.uniform(5,10)
+        background_width = numpy.random.uniform(3,5)
         background_amplitude = numpy.random.uniform(0.02,0.15)*(max_peak)
         background = background_amplitude * numpy.exp(-((two_theta_grid - background_center)**2) / (2 * background_width**2))
+        background_line = numpy.random.uniform(0.06,0.12)*(max_peak)
+        background = background + numpy.linspace(background_line, 0, len(two_theta_grid))
+        #线性基线
         xrd_spectrum = xrd_spectrum + background
         #模拟末端大谷包
 
@@ -75,7 +79,7 @@ class MyXRDCalculator:
 
 if __name__ == "__main__":
     cif = "all_cifs/5.cif"
-    a = MyXRDCalculator(cifpath=cif,fwhm=0.15,zerp_shift=0.1,random_intensity=0.15)
+    a = MyXRDCalculator(cifpath=cif,fwhm=0.5,zerp_shift=0.1,random_intensity=0.15)
     a.calculate_xrd()
     matplotlib.pyplot.plot(a.calculate_xrd()[0],a.calculate_xrd()[1])
     matplotlib.pyplot.vlines(a.calculate_xrd()[2].x, 0, a.calculate_xrd()[2].y, colors='red')
