@@ -5,7 +5,7 @@ import matplotlib.pyplot
 import time
 
 class MyXRDCalculator:
-    def __init__(self, wavelength="CuKa",cifpath=None,grid=[2,30,554],fwhm=0.15,zero_shift=0.0,random_intensity=0,background=[20,25],noise=[0.002,0.008]):
+    def __init__(self, wavelength="CuKa",cifpath=None,grid=[2,30,554],fwhm=0.15,zero_shift=0.0,random_intensity=0,background=[20,25],noise=[0.002,0.008],r=[0.6,0.95]):
         self.wavelength = wavelength
         self.cifpath = cifpath
         self.grid = grid
@@ -18,8 +18,11 @@ class MyXRDCalculator:
 
         self.sigma = self.fwhm / (2 * numpy.sqrt(2 * numpy.log(2)))
         self.gamma = self.fwhm / 2
-        self.eta = 0.4
+        self.eta = numpy.random.uniform(0.3, 0.8)
         #使用高斯和洛伦兹混合函数模拟展宽峰形，eta为高斯和洛伦兹的混合系数
+
+        #March-Dollase物理择优取向因子
+        self.r = r
 
     def calculate_xrd(self) :
         origin_structure = Structure.from_file(self.cifpath)
@@ -33,9 +36,14 @@ class MyXRDCalculator:
         #创建强度为0的数组
         shifted_angle = numpy.random.uniform(-self.zero_shift, self.zero_shift)
         #零点偏移
+        factor = self.march_dollase_factors(xrd_pattern, origin_structure)
+
+        xrd_pattern.y = xrd_pattern.y * factor
+        #machdollase扰动
 
         angle = (numpy.array(xrd_pattern.x) + shifted_angle)[:,None]
         intensity = (numpy.array(xrd_pattern.y) * numpy.random.uniform(1 - self.random_intensity, 1 + self.random_intensity, len(xrd_pattern.y)))[:, None]
+        #无规则扰动
         delta = (two_theta_grid[None,:] - angle)
         gauss = numpy.exp(-(delta ** 2)/(2*self.sigma**2))
         lorentz = 1.0 / (1.0 + (delta / self.gamma) ** 2)
@@ -91,6 +99,54 @@ class MyXRDCalculator:
         return two_theta_grid, xrd_spectrum, xrd_pattern
 
 
+    def march_dollase_factors(self,xrd_pattern,structure):
+        reciprocal_lattice = structure.lattice.reciprocal_lattice
+        #获得倒易失
+        top_idx = numpy.argsort(xrd_pattern.y)[-3:]
+        hkls =[]
+        for idx in top_idx:
+            hkls.append(xrd_pattern.hkls[idx][0]['hkl'])
+        pref_hkl = hkls[numpy.random.choice(len(hkls))]
+        #挑选一个最强峰作为择优峰
+        v_pref = reciprocal_lattice.get_cartesian_coords(pref_hkl)
+        #获得择优方向的笛卡尔坐标
+        v_pref_norm = numpy.linalg.norm(v_pref)
+        #归一化择优向量
+        if v_pref_norm == 0:
+            return numpy.ones(len(xrd_pattern.x))
+        r = numpy.random.uniform(self.r[0], self.r[1])
+        #如果模为0，则峰强都不变
+        #March-Dollase 物理择优取向因子
+        peak_factors = []
+        for hkl_group in xrd_pattern.hkls:
+            weights = []
+            #权重
+            factors = []
+            #修正系数
+            for entry in hkl_group:
+                hkl = entry['hkl']
+                mult = entry.get('multiplicity', 1)
+                v = reciprocal_lattice.get_cartesian_coords(hkl)
+                #晶面指数转化为笛卡尔坐标
+                v_norm = numpy.linalg.norm(v)
+                #归一化晶面向量
+                if v_norm == 0:
+                    cos_alpha = 1.0
+                else:
+                    cos_alpha = numpy.clip(numpy.dot(v, v_pref) / (v_norm * v_pref_norm), -1.0, 1.0)
+                
+                sin2_alpha = 1.0 - cos_alpha**2
+                # March-Dollase 公式
+                p_md = (r**2 * cos_alpha**2 + sin2_alpha / r) ** (-1.5)
+                
+                weights.append(mult)
+                factors.append(p_md)
+            weighted_p = numpy.average(factors, weights=weights) if len(factors) > 0 else 1.0
+            peak_factors.append(weighted_p)
+        return numpy.array(peak_factors)
+   
+
+
 
     
         
@@ -98,7 +154,7 @@ class MyXRDCalculator:
 
 if __name__ == "__main__":
     time1 = time.time()
-    cif = "all_cifs/88.cif"
+    cif = "Data/CoreCOF/89.cif"
     a = MyXRDCalculator(cifpath=cif,fwhm=0.5,zero_shift=0.1,random_intensity=0.15)
     two_theta_grid, xrd_spectrum, xrd_pattern = a.calculate_xrd()
     time2 = time.time()
