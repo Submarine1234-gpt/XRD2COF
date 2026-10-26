@@ -1,0 +1,29 @@
+# Abstract node template. A/B are placeholders, not chemical atoms.
+# Edit the cell and sites here; the four periodic edges are the sql embedding.
+data_sql_nodes
+_space_group_IT_number 123
+_space_group_name_H-M_alt 'P 4/m m m'
+_cell_length_a 10.0
+_cell_length_b 10.0
+_cell_length_c 7.0
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ A C 0.0 0.0 0.0
+ B C 0.5 0.5 0.0
+loop_
+ _mini_edge_from
+ _mini_edge_to
+ _mini_edge_shift_x
+ _mini_edge_shift_y
+ _mini_edge_shift_z
+ A B  0  0 0
+ A B -1  0 0
+ A B -1 -1 0
+ A B  0 -1 0

@@ -1,0 +1,101 @@
+{
+  "schema": "mini_sql_placement_v1",
+  "cif": "mini_sql_lab\\example_10.cif",
+  "declared_group": 10,
+  "detected_group_for_initial_heavy_atoms": 47,
+  "orientation_degrees": [
+    0,
+    0
+  ],
+  "port_mapping_A": [
+    2,
+    3,
+    0,
+    1
+  ],
+  "port_mapping_B": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "symmetry_mapping_rms_angstrom": [
+    0.013588243568969026,
+    1.1408858372399359e-15
+  ],
+  "maximum_internal_bond_change_angstrom": 6.9939694613552206e-06,
+  "maximum_four_cycle_angle_error_degrees": 0.0,
+  "imine_bond_lengths_angstrom": [
+    1.2799999999999996,
+    1.2799999999999987,
+    1.2799999999999985,
+    1.2799999999999996
+  ],
+  "cell_lengths_angstrom": [
+    12.609305651280524,
+    7.279986012061081,
+    7.0
+  ],
+  "heavy_atoms_in_cell": 20,
+  "bonds_in_cell": 24,
+  "valid_placements_found": 8,
+  "rejected_placements": [
+    {
+      "orientation": [
+        0,
+        90
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        0,
+        270
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        90,
+        0
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        90,
+        180
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        180,
+        90
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        180,
+        270
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        270,
+        0
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    },
+    {
+      "orientation": [
+        270,
+        180
+      ],
+      "reason": "rigid planar four-cycle error 120.0°"
+    }
+  ],
+  "warning": "Heavy-atom initial placement only. No H, force field, cell/atomic relaxation, or experimental validation."
+}
