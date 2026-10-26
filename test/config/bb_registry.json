@@ -1,0 +1,868 @@
+{
+  "S4": [
+    {
+      "name": "S4_BENZ_CHO",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_H_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_H_H_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_H_H_H_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_H_H_H_H_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_OH",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 22,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_H_OH",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 20,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_OH_H",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 22,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_OH_OH",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 22,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_BENZ_CHO_OH_OH_OH",
+      "core": "BENZ",
+      "connector": "CHO",
+      "n_atoms": 22,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_H_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_H_H_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_H_H_H_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_H_H_H_H_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 46,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_OH",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 50,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_H_OH",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 50,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_OH_H",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 50,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_OH_OH",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PORP_CHO_OH_OH_OH",
+      "core": "PORP",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_H_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_H_H_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_H_H_H_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_H_H_H_H_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_OH",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_H_OH",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_OH_H",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_OH_OH",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 74,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PTCA_CHO_OH_OH_OH",
+      "core": "PTCA",
+      "connector": "CHO",
+      "n_atoms": 78,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_H_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_H_H_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_H_H_H_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_H_H_H_H_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_OH",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_H_OH",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_OH_H",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_OH_OH",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_ZnBTC_CHO_OH_OH_OH",
+      "core": "ZnBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_H_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_H_H_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_H_H_H_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_H_H_H_H_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_OH",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_H_OH",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_OH_H",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_OH_OH",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CoBTC_CHO_OH_OH_OH",
+      "core": "CoBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_H_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_H_H_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_H_H_H_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_H_H_H_H_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_OH",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_H_OH",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_OH_H",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_OH_OH",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_CuBTC_CHO_OH_OH_OH",
+      "core": "CuBTC",
+      "connector": "CHO",
+      "n_atoms": 26,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_H_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_H_H_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_H_H_H_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_H_H_H_H_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_OH",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_H_OH",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 66,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_OH_H",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_OH_OH",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_OTPR_CHO_OH_OH_OH",
+      "core": "OTPR",
+      "connector": "CHO",
+      "n_atoms": 70,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_H_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_H_H_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_H_H_H_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_H_H_H_H_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_OH",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 58,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_H_OH",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 54,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_OH_H",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 58,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_OH_OH",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 58,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_TBPR_CHO_OH_OH_OH",
+      "core": "TBPR",
+      "connector": "CHO",
+      "n_atoms": 58,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_H_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_H_H_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_H_H_H_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_H_H_H_H_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 86,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_OH",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 90,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_H_OH",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 90,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_OH_H",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 90,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_OH_OH",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 94,
+      "n_X": 4,
+      "mass": 0.0
+    },
+    {
+      "name": "S4_PHPR_CHO_OH_OH_OH",
+      "core": "PHPR",
+      "connector": "CHO",
+      "n_atoms": 98,
+      "n_X": 4,
+      "mass": 0.0
+    }
+  ]
+}

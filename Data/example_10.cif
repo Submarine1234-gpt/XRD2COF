@@ -1,0 +1,62 @@
+# Initial heavy-atom sql placement; H omitted; NOT optimised
+# declared group #10 P12/m1
+data_mini_sql_10
+_space_group_IT_number 10
+_space_group_name_H-M_alt 'P12/m1'
+_cell_length_a 12.60930565
+_cell_length_b 7.27998601
+_cell_length_c 7.00000000
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 '-x, -y, -z'
+ 2 '-x, y, -z'
+ 3 'x, -y, z'
+ 4 'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ C C0 4 0.79395661 0.79395661 0.00000000 1
+ C C1 4 0.89697830 0.89697830 0.00000000 1
+ C C2 2 0.00000000 0.79395661 0.00000000 1
+ N N3 4 0.29395565 0.29395565 0.00000000 1
+ C C4 4 0.39697782 0.39697782 0.00000000 1
+ C C5 2 0.50000000 0.29395565 0.00000000 1
+loop_
+ _geom_bond_atom_site_label_1
+ _geom_bond_atom_site_label_2
+ _geom_bond_distance
+ _geom_bond_site_symmetry_1
+ _geom_bond_site_symmetry_2
+ C0 C1 1.49999 4_555 4_555
+ C0 N3 1.28000 4_555 1_665
+ C1 C2 1.49999 4_555 2_655
+ C1 C1 1.49999 4_555 3_575
+ C2 C1 1.49999 2_555 2_655
+ C1 C0 1.49999 2_655 2_655
+ C1 C1 1.49999 2_655 1_675
+ C0 N3 1.28000 2_655 3_565
+ C1 C0 1.49999 1_665 1_665
+ C1 C2 1.49999 1_665 1_565
+ C0 N3 1.28000 1_665 4_555
+ C2 C1 1.49999 1_565 3_465
+ C1 C0 1.49999 3_565 3_565
+ C0 N3 1.28000 3_565 2_655
+ N3 C4 1.50000 4_555 4_555
+ C4 C5 1.50000 4_555 2_655
+ C4 C4 1.50000 4_555 3_565
+ C5 C4 1.50000 2_655 2_655
+ C4 N3 1.50000 2_655 2_655
+ C4 C4 1.50000 2_655 1_665
+ C4 N3 1.50000 1_665 1_665
+ C4 C5 1.50000 1_665 1_665
+ C5 C4 1.50000 1_665 3_565
+ C4 N3 1.50000 3_565 3_565

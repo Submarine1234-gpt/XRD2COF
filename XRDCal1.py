@@ -154,7 +154,7 @@ class MyXRDCalculator:
 
 if __name__ == "__main__":
     time1 = time.time()
-    cif = "Data/CoreCOF/89.cif"
+    cif = "Data/CoreCOF/1024.cif"
     a = MyXRDCalculator(cifpath=cif,fwhm=0.5,zero_shift=0.1,random_intensity=0.15)
     two_theta_grid, xrd_spectrum, xrd_pattern = a.calculate_xrd()
     time2 = time.time()

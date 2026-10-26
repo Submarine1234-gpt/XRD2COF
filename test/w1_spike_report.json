@@ -1,0 +1,18 @@
+{
+  "case": "tapb_pda",
+  "n_trials": 10,
+  "n_candidates": 3,
+  "bb": [
+    "T3_BENZ_NH2_H",
+    "L2_BENZ_CHO_H"
+  ],
+  "nets": [
+    "hcb_a"
+  ],
+  "recall_at_1": 0.0,
+  "recall_at_3": 0.0,
+  "mean_rel_c_err": NaN,
+  "mean_rwp_gap": NaN,
+  "mean_seconds_per_trial": 0.03,
+  "verdict": "NO-GO / 需先修候选集或前向模型"
+}

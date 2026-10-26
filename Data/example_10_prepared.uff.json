@@ -1,0 +1,423 @@
+{
+  "source_sha256": "1bf2934696e4a730c3832131b04a94a9310d621d8547b68b63da8bbb30d620fb",
+  "symbols": [
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "N",
+    "N",
+    "N"
+  ],
+  "types": [
+    "H_",
+    "H_",
+    "H_",
+    "H_",
+    "H_",
+    "H_",
+    "H_",
+    "H_",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_2",
+    "C_2",
+    "C_2",
+    "C_2",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "C_R",
+    "N_2",
+    "N_2",
+    "N_2",
+    "N_2"
+  ],
+  "charges": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bonds": [
+    {
+      "i": 8,
+      "j": 12,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 12,
+      "j": 24,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "double"
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 11,
+      "j": 15,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 15,
+      "j": 27,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "double"
+    },
+    {
+      "i": 3,
+      "j": 15,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 14,
+      "j": 26,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "double"
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 13,
+      "j": 25,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "double"
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "image": [
+        0,
+        -1,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 8,
+      "j": 20,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 11,
+      "j": 21,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "image": [
+        0,
+        1,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 10,
+      "j": 20,
+      "image": [
+        1,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 9,
+      "j": 21,
+      "image": [
+        1,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 5,
+      "j": 20,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 4,
+      "j": 21,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 17,
+      "j": 25,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 18,
+      "j": 26,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 19,
+      "j": 27,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 16,
+      "j": 24,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 17,
+      "j": 18,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 17,
+      "j": 23,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 18,
+      "j": 22,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 16,
+      "j": 19,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 19,
+      "j": 23,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 16,
+      "j": 22,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "resonant"
+    },
+    {
+      "i": 7,
+      "j": 23,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    },
+    {
+      "i": 6,
+      "j": 22,
+      "image": [
+        0,
+        0,
+        0
+      ],
+      "order": "single"
+    }
+  ],
+  "preparation": {
+    "profile": "aromatic-imine-example",
+    "source": "Data/example_10.cif",
+    "spacegroup": 10,
+    "added_hydrogens": 8,
+    "linear_linker_seed_A": -0.15,
+    "monoclinic_beta_deg": 95.0
+  }
+}
